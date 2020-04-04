@@ -1,0 +1,261 @@
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+	transition-duration: 1s;
+}
+body{
+	background-image: url("../images/milky-way-2695569__341.jpg");
+	background-size: 100% 820px;
+}
+.effect {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  float: none;
+  position: relative;
+}
+.effect img {
+  display: none;
+}
+.rows1{
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: white;
+   top: 70%;
+   left: 60%;
+}
+.rows{
+	position: absolute;
+	top: 90%;
+    left: 47%;
+	width: 100%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.typewrite{
+	color: white;
+	font-size: 50px;
+}
+
+.img-fluid{
+	margin-top: 45px;
+	width: 80px;
+	height: 80px;
+	overflow: auto;
+}
+.navbar{
+	height: 60px;
+	opacity: 0.7;
+}
+.left{
+	width: 50%;
+	float: left;
+	background: rgb(165, 164, 247);
+	padding: 10px;
+	border-radius: 3px;
+	height:83%;
+	margin: 0px;
+	font-size: 90px;
+	color: black;
+	font-weight: 1000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	 background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../images/webD.jpg");
+	
+}
+
+.right{
+	font-size: 90px;
+	font-weight: 1000;
+	width: 49%;
+	float: right;
+	padding: 10px;
+	border-radius: 3px;
+	height:83%;
+		color: black;
+	  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../images/ML.jpg");
+}
+.abc2{
+	height: 100px;
+	background: #aaa;
+}
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+
+footer
+{
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+.content
+{
+  height: 50vh;
+  background-color: lightgray;
+}
+
+.container
+{
+  background-color: beige;
+}
+
+.copyright,  .impressum
+{
+  text-align: center;
+}
+
+.logo
+{
+  height: 8vh;
+}
+.col img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 170px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+.pimage{
+	float: right;
+	
+	width: 10%;
+	height: 100px;
+	border-radius: 5px;
+}
+.abc1{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 400px;
+	margin: 20px;
+}
+.abcp{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 430px;
+	margin: 20px;
+}
+.abce{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 280px;
+	margin: 20px;
+}
+.row .col-sm-6 .card{
+	color: black;
+	font-weight: 700;
+}
+.NIC{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255,255,255,0.9)),url("../images/NIC.jpg");
+}
+.VIF{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../images/VIF.jpg");
+}
+.CDAC{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../images/cdac.png");
+}
+.CN{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)),url("../images/CN.png");
+}
+.abcs{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 420px;
+	margin: 20px;
+}
+.abcs .row .col img{
+	padding: 40px;
+	margin: 10px;
+	background: linear-gradient(to bottom,white,rgb(41, 199, 178));
+	border-radius: 20px;
+}
+.rounded .mx-auto .d-blockimg :hover{
+	width: 40px;
+}
+
+
+@media (max-width: 800px) 
+{
+  .left, .right{
+	  font-size: 50px;
+  }
+  li
+  {
+    margin-left: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .sozial
+  {
+    margin-bottom: 1vh;
+  }
+}
+@media screen and (max-width:996px){
+	.img-fluid{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	overflow: auto;
+}
+}
+@media screen and (max-width:400px){
+	.img-fluid{
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	overflow: auto;
+}
+ .left, .right{
+	  font-size: 20px;
+  }
+}
