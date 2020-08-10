@@ -7,6 +7,21 @@ body{
 	background-image: url("../images/milky-way-2695569__341.jpg");
 	background-size: 100% 820px;
 }
+.object {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 50px;
+  }
+}
 .effect {
   font-size: 0;
   margin: 0;
@@ -19,13 +34,15 @@ body{
 }
 .effect img {
   display: none;
+  width: 400px;
+  height:400px;
 }
 .rows1{
    position: absolute;
    margin: 0;
    padding: 0;
    color: white;
-   top: 70%;
+   top: 60%;
    left: 60%;
 }
 .rows{
@@ -47,10 +64,13 @@ body{
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  background:#bbb;
+  border: 2px solid black;
 }
 
 #myBtn:hover {
-  background-color: #555;
+	border: 2px solid black;
+  background-color:white;
 }
 .typewrite{
 	color: white;
@@ -114,12 +134,6 @@ li:first-child
   margin:0;
 }
 
-footer
-{
-  padding-top: 5vh;
-  padding-bottom: 2vh;
-}
-
 .content
 {
   height: 50vh;
@@ -140,7 +154,7 @@ footer
 {
   height: 8vh;
 }
-.col img{
+.abcp img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,22 +175,23 @@ footer
 	padding: 10px;
 	background: black;
 	color: white;
-	height: 400px;
-	margin: 20px;
+	height: 50%;
+	margin: 10px;
 }
 .abcp{
 	padding: 10px;
 	background: black;
 	color: white;
 	height: 430px;
-	margin: 20px;
+	margin: 10px;
 }
 .abce{
 	padding: 10px;
 	background: black;
 	color: white;
 	height: 280px;
-	margin: 20px;
+	margin: 10px;
+	
 }
 .row .col-sm-6 .card{
 	color: black;
@@ -186,41 +201,68 @@ footer
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255,255,255,0.9)),url("../images/NIC.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.9)),url("../images/NIC.jpg");
 }
 .VIF{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../images/VIF.jpg");
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)),url("../images/VIF.jpg");
 }
 .CDAC{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url("../images/cdac.png");
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)),url("../images/cdac.png");
 }
 .CN{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)),url("../images/CN.png");
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.9)),url("../images/CN.png");
 }
 .abcs{
 	padding: 10px;
 	background: black;
 	color: white;
-	height: 420px;
-	margin: 20px;
+	height: 480px;
+	margin: 10px;	
 }
-.abcs .row .col img{
-	padding: 40px;
-	margin: 10px;
-	background: linear-gradient(to bottom,white,rgb(41, 199, 178));
+.abcs .card img{
+	background: linear-gradient(to bottom,rgb(255, 255, 245),rgb(255, 249, 172));
+	width:100%;
+	height: 100%;
 	border-radius: 20px;
+	align-self: center;
 }
-.rounded .mx-auto .d-blockimg :hover{
-	width: 40px;
+
+.card-group .card{
+	margin: 5px;
+	padding: 20px;
+	align-content: center
+}
+.card-group .col-2:hover {
+	transform: scale(0.75);
+}
+.card-group .card .overlay{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 98%;
+  transition: .5s ease;
+  opacity:0;
+  margin: 0px;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.card:hover .overlay {
+  opacity: 1;
 }
 
 
@@ -247,8 +289,11 @@ footer
 	height: 50px;
 	overflow: auto;
 }
+.abce{
+	height: 500px;
 }
-@media screen and (max-width:400px){
+}
+@media screen and (max-width:450px){
 	.img-fluid{
 	margin-top: 10px;
 	width: 40px;
@@ -258,4 +303,27 @@ footer
  .left, .right{
 	  font-size: 20px;
   }
+.abce{
+	height: 650px;
+}
+.abcs{
+	height: 1650px;
+	padding: 10px;
+	margin-left: 20px;
+}
+.container .row .card-group .col-2 img{
+	width: 100%;
+}
+.rows{
+	top:100%;
+	align-content: center;
+}
+.rows1{
+	font-size: 30px;
+	top:40%;
+	left:30%;
+}
+.col-2{
+	left: 40%;
+}
 }
