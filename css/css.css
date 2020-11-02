@@ -1,0 +1,381 @@
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+	transition-duration: 1s;
+}
+body{
+	background-image: url("../images/milky-way-2695569__341.jpg");
+	background-size: 100% 820px;
+}
+.object {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 50px;
+  }
+}
+.effect {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  float: none;
+  position: relative;
+}
+.effect img {
+  display: none;
+  width: 400px;
+  height:400px;
+}
+.rows1{
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: white;
+   top: 60%;
+   left: 60%;
+}
+.rows{
+	position: absolute;
+	top: 90%;
+    left: 47%;
+	width: 100%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  background:#bbb;
+  border: 2px solid black;
+}
+
+#nav {
+	display: block;
+	margin: auto;
+	border-radius: 40px !important;
+}
+
+.navstyle{
+	margin:60px;
+	height:40px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 40px !important;
+}
+
+#myBtn:hover {
+	border: 2px solid black;
+  background-color:white;
+}
+.typewrite{
+	color: white;
+	font-size: 50px;
+}
+
+.img-fluid{
+	margin-top: 45px;
+	width: 80px;
+	height: 80px;
+	overflow: auto;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	background: rgb(165, 164, 247);
+	padding: 10px;
+	border-radius: 3px;
+	height:83%;
+	margin: 0px;
+	font-size: 90px;
+	color: black;
+	font-weight: 1000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../images/webD.jpg");
+	
+}
+
+.right{
+	font-size: 90px;
+	font-weight: 1000;
+	width: 49%;
+	float: right;
+	padding: 10px;
+	border-radius: 3px;
+	height:83%;
+	color: black;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+   	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../images/ML.jpg");
+}
+.abc2{
+	height: 100px;
+	background: #aaa;
+}
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+
+.content
+{
+  height: 50vh;
+  background-color: lightgray;
+}
+
+.container
+{
+  background-color: beige;
+}
+
+.copyright,  .impressum
+{
+  text-align: center;
+}
+
+.logo
+{
+  height: 8vh;
+}
+.projects img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 170px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+.pimage{
+	float: right;
+	width: 10%;
+	height: 100px;
+	border-radius: 5px;
+}
+.abc1{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 50%;
+	margin: 10px;
+}
+.projects{
+	padding: 30px;
+	background: black;
+	color: white;
+	height: 500px;
+	margin: 10px;
+}
+
+#experience{
+	background: black;
+	color: white;
+	margin-top:40px;
+	padding: 20px;
+	width:100%;
+}
+
+.abce{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 280px;
+	margin: 10px;
+	
+}
+.row .col-sm-6 .card{
+	color: black;
+	font-weight: 700;
+}
+.CS{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.9)),url("../images/CS.png");
+}
+.NIC{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.9)),url("../images/NIC.jpg");
+}
+.VIF{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)),url("../images/VIF.jpg");
+}
+.CDAC{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)),url("../images/cdac.png");
+}
+.CN{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.9)),url("../images/CN.png");
+}
+.abcs{
+	padding: 10px;
+	background: black;
+	color: white;
+	height: 480px;
+	margin: 10px;	
+}
+.abcs .card img{
+	background: linear-gradient(to bottom,rgb(255, 255, 245),rgb(255, 249, 172));
+	width:100%;
+	height: 100%;
+	border-radius: 20px;
+	align-self: center;
+}
+
+.card-group .card{
+	margin: 5px;
+	padding: 20px;
+	align-content: center
+}
+.card-group .col-2:hover {
+	transform: scale(0.75);
+}
+.card-group .card .overlay{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 98%;
+  transition: .5s ease;
+  opacity:0;
+  margin: 0px;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.time .row{
+  border-top: 5px dashed;
+  border-color: white !important;
+  margin:0; padding: 30px;
+}
+.time .even-child {
+  border-left: 5px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 20px; 
+  margin-top:-40px;
+  padding-right: 0;
+}
+.time .odd-child {
+  border-right: 5px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 20px;
+  margin-top:-40px; 
+  padding-left: 0;
+}
+
+
+
+
+@media (max-width: 800px) 
+{
+  .left, .right{
+	  font-size: 50px;
+  }
+  li
+  {
+    margin-left: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .sozial
+  {
+    margin-bottom: 1vh;
+  }
+}
+@media screen and (max-width:996px){
+	.img-fluid{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	overflow: auto;
+}
+.abce{
+	height: 500px;
+}
+}
+@media screen and (max-width:450px){
+	.img-fluid{
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	overflow: auto;
+}
+ .left, .right{
+	  font-size: 20px;
+  }
+.abce{
+	height: 650px;
+}
+.abcs{
+	height: 1650px;
+	padding: 10px;
+	margin-left: 20px;
+}
+.container .row .card-group .col-2 img{
+	width: 100%;
+}
+.rows{
+	top:100%;
+	align-content: center;
+}
+.rows1{
+	font-size: 30px;
+	top:40%;
+	left:30%;
+}
+.col-2{
+	left: 40%;
+}
+}
